@@ -1,57 +1,21 @@
-div {
-   padding: 16px;
+* {
+   box-sizing: border-box;
 }
-
-.child,
-.parent {
-   border: 2px solid black;
+.container {
+   width: 50%;
+   display: inline-block;
 }
-
-.child {
-   position: absolute;
-   top: 90px;
-   right: 40px;
-}
-
-.parent {
-   width: 300px;
-   height: 100px;
-   background-color: yellowgreen;
-}
-
-.child {
-   background: yellow;
-   position: absolute;
-}
-
-.tip {
-   opacity: 1;
-   background-color: whitesmoke;
-   padding: 0 8px;
-}
-
-.green {
-   width: 100px;
-   height: 100px;
-   background: green;
+section:first-of-type {
    float: left;
 }
-
-.container {
-   height: 2000px;
+.red {
+   background-color: red;
+   float: right;
 }
-.relative-parent {
-   position: relative;
-   top: 20px;
-   left: 50px;
+.green {
+   background-color: green;
+   float: left;
 }
-.absolute-parent {
-   position: absolute;
-   bottom: 20px;
-   right: 50px;
-}
-.fixed-parent {
-   position: fixed;
-   bottom: 20px;
-   left: 30px;
+footer {
+   clear: both;
 }

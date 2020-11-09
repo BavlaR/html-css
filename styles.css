@@ -3,7 +3,6 @@ header {
    background-color: darkturquoise;
 }
 ul {
-   height: 40px;
    display: flex;
    align-items: center;
    color: white;
@@ -11,6 +10,7 @@ ul {
 }
 ul li {
    margin-left: 16px;
+   line-height: 40px;
 }
 main {
    background-color: beige;

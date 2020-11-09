@@ -1,22 +1,56 @@
-body {
+header {
+   height: 40px;
+   background-color: darkturquoise;
+}
+ul {
+   height: 40px;
    display: flex;
+   align-items: center;
+   color: white;
+   list-style-type: none;
 }
-div {
-   width: 20%;
+ul li {
+   margin-left: 16px;
+}
+main {
+   background-color: beige;
+   height: 5000px;
+}
+.head {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   width: 200px;
    height: 200px;
+   background-color: aquamarine;
 }
-.block_red {
-   background-color: red;
+.ear {
+   position: relative;
+   width: 40px;
+   height: 60px;
+   background-color: brown;
 }
-.block_green {
-   background-color: green;
+.ear_right {
+   bottom: 60px;
+   left: 200px;
 }
-.block_blue {
-   background-color: blue;
+.ear_left {
+   bottom: 120px;
+   right: 40px;
 }
-.block_yellow {
-   background-color: yellow;
+.eye {
+   position: relative;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background-color: gray;
 }
-.block_black {
-   background-color: black;
+.eye_right {
+   bottom: 40px;
+   left: 130px;
+}
+.eye_left {
+   bottom: 70px;
+   left: 40px;
 }

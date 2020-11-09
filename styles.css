@@ -5,18 +5,18 @@ div {
    width: 20%;
    height: 200px;
 }
-div:first-of-type {
+.block_red {
    background-color: red;
 }
-div:nth-of-type(2) {
+.block_green {
    background-color: green;
 }
-div:nth-of-type(3) {
+.block_blue {
    background-color: blue;
 }
-div:nth-of-type(4) {
+.block_yellow {
    background-color: yellow;
 }
-div:last-of-type {
+.block_black {
    background-color: black;
 }

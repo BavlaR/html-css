@@ -11,19 +11,32 @@
       />
       <style>
          div {
-            border: 3px solid;
+            border: 2px solid black;
             padding: 50px;
-            margin-bottom: 50px;
-            background-color: aqua;
+         }
+         .blue {
+            background-color: blue;
+            margin: 50px;
+         }
+         .yellow {
+            background-color: yellow;
+         }
+         .green {
+            background-color: green;
+         }
+         .pink {
+            background-color: pink;
          }
       </style>
    </head>
 
    <body>
-      <div>I am learning box model in CSS!</div>
-      <div>I am learning box model in CSS!</div>
-      <div>I am learning box model in CSS!</div>
-      <div>I am learning box model in CSS!</div>
-      <div>I am learning box model in CSS!</div>
+      <div class="blue">
+         <div class="yellow">
+            <div class="green">
+               <div class="pink"></div>
+            </div>
+         </div>
+      </div>
    </body>
 </html>

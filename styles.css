@@ -6,7 +6,6 @@ main {
    flex-wrap: wrap;
 }
 article {
-   box-sizing: border-box;
    flex-grow: 1;
    margin: 8px;
    padding: 16px;

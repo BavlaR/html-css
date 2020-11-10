@@ -1,22 +1,14 @@
-body {
+header {
+   text-align: center;
+}
+main {
    display: flex;
+   flex-wrap: wrap;
 }
-.block {
-   height: 300px;
-   width: 20%;
-}
-.block_red {
-   background-color: red;
-}
-.block_green {
-   background-color: green;
-}
-.block_blue {
-   background-color: blue;
-}
-.block_yellow {
-   background-color: yellow;
-}
-.block_black {
-   background-color: black;
+article {
+   flex-grow: 1;
+   margin: 8px;
+   padding: 16px;
+   width: 300px;
+   background-color: bisque;
 }

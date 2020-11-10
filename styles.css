@@ -1,3 +1,5 @@
+body {
+   box-sizing: border-box;
 h1 {
    text-align: center;
 }
@@ -6,7 +8,6 @@ h1 {
    flex-wrap: wrap;
 }
 .article {
-   box-sizing: border-box;
    margin: 8px;
    padding: 16px;
    width: 300px;

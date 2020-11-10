@@ -2,7 +2,10 @@
    box-sizing: border-box;
 }
 header {
-   text-align: center;
+   display: flex;
+}
+header h1 {
+   margin: auto;
 }
 .articles-list {
    display: flex;

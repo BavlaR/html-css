@@ -6,7 +6,6 @@ main {
    flex-wrap: wrap;
 }
 article {
-   flex-grow: 1;
    margin: 8px;
    padding: 16px;
    width: 300px;

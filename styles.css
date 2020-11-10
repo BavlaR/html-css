@@ -1,15 +1,13 @@
 * {
    box-sizing: border-box;
 }
-header {
-   display: flex;
-}
-header h1 {
-   margin: auto;
+h1 {
+   text-align: center;
 }
 .articles-list {
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
 }
 .article {
    margin: 8px;

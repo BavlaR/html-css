@@ -7,12 +7,13 @@ header {
 main {
    display: flex;
    flex-wrap: wrap;
-   margin: 8px 8px 8px 0;
 }
 article {
-   margin: 0 0 8px 8px;
+   margin: 8px;
    padding: 16px;
    width: 300px;
    background-color: bisque;
    flex-grow: 1;
 }
+   
+   

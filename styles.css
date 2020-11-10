@@ -12,6 +12,7 @@ h1 {
    margin: 8px;
    padding: 16px;
    width: 300px;
-   background-color: bisque;
    flex-grow: 1;
+   flex-shrink: 0;
+   background-color: bisque;
 }

@@ -1,23 +1,39 @@
 * {
    box-sizing: border-box;
 }
-.articles {
-   display: flex;
-}
-.articles div {
-   height: 100px;
-   width: 150px;
+.dropdown {
    margin: 16px;
-   background-color: beige;
 }
-.cropped {
-   overflow: hidden;
+span {
+   display: inline-block;
+   padding: 16px;
+   background-color: darkgreen;
+   opacity: 0.8;
+   font-size: 16px;
+   color: white;
 }
-.both-scrolls {
-   overflow: scroll;
-   cursor: all-scroll;
+span:hover {
+   opacity: 1;
+   cursor: pointer;
 }
-.vertical-scroll {
-   overflow: auto;
-   cursor: all-scroll;
+span:hover + ul {
+   display: block;
+}
+ul {
+   display: none;
+   top: 0;
+   margin: 0;
+   padding: 0;
+   width: 120px;
+   color: black;
+   background-color: lightcyan;
+   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+   list-style-type: none;
+}
+ul li {
+   padding: 16px;
+}
+ul li:hover {
+   background-color: ghostwhite;
+   cursor: pointer;
 }

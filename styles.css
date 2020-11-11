@@ -1,19 +1,8 @@
 div {
-   position: relative;
-   display: inline-block;
-   margin: 16px;
-   border-bottom: 1px dotted black;
-   cursor: pointer;
+   display: flex;
+   overflow: auto;
+   cursor: all-scroll;
 }
-div:hover span {
-   bottom: -40px;
-   display: block;
-}
-span {
-   position: absolute;
-   display: none;
-   background-color: gray;
-   color: white;
-   border-radius: 4px;
-   padding: 8px;
+img {
+   margin: 8px;
 }

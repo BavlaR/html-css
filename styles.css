@@ -15,6 +15,9 @@ h1 {
 p {
    line-height: 28px;
 }
+p:first-of-type {
+   margin-bottom: 0;
+}
 span {
    font-weight: 900;
    letter-spacing: 3px;
@@ -22,6 +25,7 @@ span {
    opacity: 0.8;
    text-decoration-line: underline;
 }
+
 a {
    text-decoration: none;
 }

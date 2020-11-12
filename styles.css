@@ -10,9 +10,8 @@ h1 {
    text-overflow: ellipsis;
 }
 div {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   text-align: center;
+   line-height: 200px;
    height: 200px;
    background-color: coral;
    color: white;

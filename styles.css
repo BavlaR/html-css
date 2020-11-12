@@ -1,11 +1,15 @@
-html {
+* {
    font-family: Roboto, sans-serif;
    font-size: 18px;
+}
+section {
    margin: 32px;
+   display: flex;
+   flex-wrap: wrap;
 }
 h1 {
    word-spacing: 20px;
-   text-align: center;
+   margin: auto;
    text-transform: uppercase;
 }
 p {

@@ -1,9 +1,12 @@
 * {
    font-family: Verdana;
 }
+header {
+   width: 50%;
+   margin: 0 auto;
+}
 h1 {
    font-size: 74px;
-   width: 50%;
    text-align: center;
    overflow: hidden;
    white-space: nowrap;

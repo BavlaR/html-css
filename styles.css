@@ -1,6 +1,8 @@
 * {
    font-family: Roboto, sans-serif;
    font-size: 18px;
+}
+body {
    margin: 32px;
 }
 h1 {

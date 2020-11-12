@@ -3,11 +3,12 @@
 }
 header {
    width: 50%;
-   margin: 0 auto;
+   margin: auto;
+   text-align: center;
 }
 h1 {
+   margin: 0;
    font-size: 74px;
-   text-align: center;
    overflow: hidden;
    white-space: nowrap;
    text-overflow: ellipsis;

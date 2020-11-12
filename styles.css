@@ -1,12 +1,8 @@
-h1 {
-   margin: 0;
-   padding: 16px;
-   font-family: Arial;
-   font-size: 96px;
-   font-weight: 700;
-   text-align: center;
-   text-transform: uppercase;
-   background: linear-gradient(45deg, yellow, red);
-   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
+.gallery {
+   display: flex;
+}
+.gallery div {
+   width: 200px;
+   height: 200px;
+   background: center/contain no-repeat;
 }

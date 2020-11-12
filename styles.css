@@ -1,10 +1,11 @@
 * {
    box-sizing: border-box;
 }
+.gallery {
+   display: flex;
+}
 .gallery div {
-   display: inline-block;
-   box-sizing: border-box;
    width: 200px;
    height: 200px;
-   background: center/contain no-repeat;
+   background: center/contain no-repeat border-box;
 }

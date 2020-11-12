@@ -1,7 +1,6 @@
-.gallery {
-   display: flex;
-}
 .gallery div {
+   display: inline-block;
+   box-sizing: border-box;
    width: 200px;
    height: 200px;
    background: center/contain no-repeat;

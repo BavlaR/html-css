@@ -1,23 +1,13 @@
-* {
-   font-family: Verdana;
+li {
+   list-style-type: none;
+   font-size: 1.5em;
 }
-header {
-   width: 50%;
-   margin: auto;
-   text-align: center;
+li:first-of-type {
+   text-decoration: red overline;
 }
-h1 {
-   margin: 0;
-   font-size: 74px;
-   overflow: hidden;
-   white-space: nowrap;
-   text-overflow: ellipsis;
+li:nth-of-type(2) {
+   text-decoration-line: line-through;
 }
-div {
-   text-align: center;
-   line-height: 200px;
-   height: 200px;
-   background-color: coral;
-   color: white;
-   text-transform: uppercase;
+li:last-of-type {
+   text-decoration: green underline;
 }

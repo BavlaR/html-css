@@ -4,12 +4,14 @@
 }
 section {
    margin: 32px;
+}
+div {
    display: flex;
    flex-wrap: wrap;
 }
 h1 {
    word-spacing: 20px;
-   margin: auto;
+   text-align: center;
    text-transform: uppercase;
 }
 p {

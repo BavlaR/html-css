@@ -19,19 +19,31 @@
    <body>
       <form>
          <div>
-            <input type="text" value="Emerson" name="lastName" />
+            <label for="someText">Last Name</label>
+            <input id="someText" type="text" value="Emerson" name="lastName" readonly />
          </div>
          <div>
-            <input type="number" value="17" name="age" />
+            <label for="someNumber">Age</label>
+            <input id="someNumber" type="number" value="17" name="age" min="3" max="10" required />
          </div>
-         <div><input type="checkbox" name="agree" />Accept terms and conditions</div>
+         <div>
+            <input id="someCheck" type="checkbox" name="agree" />
+            <label for="someCheck">Accept terms and conditions</label>
+         </div>
          <div class="choose-gender">
-            <input type="radio" name="gender" checked />Male
-            <input type="radio" name="gender" />Female
-            <input type="radio" name="gender" />Secret
+            <input id="first-radio" type="radio" name="gender" />
+            <label for="first-radio">Male</label>
+            <input id="second-radio" type="radio" name="gender" />
+            <label for="second-radio">Female</label>
+            <input id="third-radio" type="radio" name="gender" />
+            <label for="third-radio">Secret</label>
          </div>
          <div>
-            <textarea name="description" placeholder="Write description..."></textarea>
+            <textarea
+               name="description"
+               placeholder="Write description..."
+               maxlength="10"
+            ></textarea>
          </div>
          <div>
             <button type="submit">Submit</button>

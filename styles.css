@@ -1,8 +1,5 @@
-body {
-   padding-left: 35px;
-}
 .checkbox {
-   display: block;
+   display: inline-block;
    position: relative;
    padding-left: 35px;
    font-size: 24px;
@@ -17,7 +14,6 @@ input:checked + span {
    background-color: #006400;
 }
 span {
-   display: inline-block;
    position: absolute;
    top: 0;
    left: 0;

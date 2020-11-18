@@ -14,6 +14,7 @@ input:checked + span {
    background-color: #006400;
 }
 span {
+   display: inline-block;
    position: absolute;
    top: 0;
    left: 0;

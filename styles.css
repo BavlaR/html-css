@@ -8,3 +8,6 @@ li {
    line-height: 32px;
    list-style-type: none;
 }
+h2 {
+   margin: 0;
+}

@@ -10,71 +10,23 @@
          crossorigin="anonymous"
       />
       <style>
-         * {
-            box-sizing: border-box;
-         }
-         .image-container {
-            margin: 50px auto;
-         }
-         .image-container img {
+         video {
             display: block;
-            margin: auto;
-            max-width: 100%;
-            border-radius: 20px;
-         }
-         .gallery {
-            display: flex;
-         }
-         .card {
-            margin: 16px;
-            text-align: center;
-            text-transform: lowercase;
-            box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
-         }
-         figcaption {
-            line-height: 30px;
-         }
-         .gallery figure:first-of-type img {
-            filter: opacity(50%);
-         }
-         .gallery figure:nth-of-type(2) img {
-            filter: blur(4px);
-         }
-         .gallery figure:last-of-type img {
-            filter: invert(100%);
+            margin: 200px auto 0 auto;
+            width: 500px;
          }
       </style>
    </head>
 
    <body>
-      <div class="image-container">
-         <img
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-            alt="Tree on the field"
+      <video
+         src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4"
+         poster="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/poster.jpg"
+         controls
+      >
+         <source
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4"
          />
-      </div>
-      <div class="gallery">
-         <figure class="card">
-            <img
-               src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-               alt="Nature"
-            />
-            <figcaption>Opacity</figcaption>
-         </figure>
-         <figure class="card">
-            <img
-               src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-               alt="Nature"
-            />
-            <figcaption>Blur</figcaption>
-         </figure>
-         <figure class="card">
-            <img
-               src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-               alt="Nature"
-            />
-            <figcaption>Invert</figcaption>
-         </figure>
-      </div>
+      </video>
    </body>
 </html>

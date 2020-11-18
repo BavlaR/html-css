@@ -10,30 +10,31 @@
          crossorigin="anonymous"
       />
       <style>
-         form {
+         div,
+         div {
             margin: 16px;
          }
       </style>
    </head>
 
    <body>
-      <form>
+      <div>
          <input type="text" value="Emerson" name="lastName" />
-      </form>
-      <form>
+      </div>
+      <div>
          <input type="number" value="17" name="age" />
-      </form>
-      <form><input type="checkbox" name="agree" />Accept terms and conditions</form>
-      <form>
-         <input class="choose-gender" type="radio" name="gender" id="" />Male
-         <input class="choose-gender" type="radio" name="gender" id="" />Female
-         <input class="choose-gender" type="radio" name="gender" id="" />Secret
-      </form>
-      <form name="description">
-         <textarea placeholder="Write description..."></textarea>
-      </form>
-      <form>
+      </div>
+      <div><input type="checkbox" name="agree" />Accept terms and conditions</div>
+      <div>
+         <input class="choose-gender" type="radio" name="gender" checked />Male
+         <input class="choose-gender" type="radio" name="gender" />Female
+         <input class="choose-gender" type="radio" name="gender" />Secret
+      </div>
+      <div>
+         <textarea name="description" placeholder="Write description..."></textarea>
+      </div>
+      <div>
          <button type="submit">Submit</button>
-      </form>
+      </div>
    </body>
 </html>

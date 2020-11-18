@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 .checkbox {
    display: inline-block;
    position: relative;
@@ -14,7 +17,6 @@ input:checked + span {
    background-color: #006400;
 }
 span {
-   display: inline-block;
    position: absolute;
    top: 0px;
    left: 0px;

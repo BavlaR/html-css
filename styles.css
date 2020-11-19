@@ -12,10 +12,6 @@ td {
    height: 50px;
    text-align: center;
 }
-tbody,
-tfoot {
-   font-weight: bold;
-}
 tbody td {
    border: 1px solid black;
 }

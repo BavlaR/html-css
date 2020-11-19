@@ -10,25 +10,18 @@ td {
    width: 50px;
    height: 50px;
    text-align: center;
-}
-tbody td {
    border: 1px solid black;
 }
-tbody tr:nth-child(odd) td:nth-child(odd) {
-   background-color: black;
-}
-tbody tr:nth-child(even) td:nth-child(even) {
-   background-color: black;
-}
-tbody tr td:first-of-type {
-   border: none !important;
+table td:first-child,
+table td:last-child,
+table tr:first-child td,
+table tr:last-child td {
+   border: none;
    background-color: white !important;
 }
-tbody tr td:last-of-type {
-   border: none !important;
-   background-color: white !important;
+table tr:nth-child(even) td:nth-child(odd) {
+   background-color: black;
 }
-thead td,
-tfoot td {
-   border: none !important;
+table tr:nth-child(2n + 3) td:nth-child(even) {
+   background-color: black;
 }

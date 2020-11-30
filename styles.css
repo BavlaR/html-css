@@ -23,7 +23,6 @@ body {
 }
 @keyframes appear {
    100% {
-      top: 50vh;
-      transform: translateY(-100px);
+      top: calc(50vh - 50px);
    }
 }

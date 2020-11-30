@@ -4,12 +4,12 @@
 }
 .spinner {
    margin: auto;
-   font-family: monospace;
-   font-size: 16px;
-   text-transform: uppercase;
 }
 .spinner-text {
-   animation: blinking 2s infinite linear;
+   font-size: 16px;
+   font-family: monospace;
+   text-transform: uppercase;
+   animation: blinking 2s infinite, blinking 2s infinite linear;
 }
 .rect {
    position: relative;
@@ -17,5 +17,5 @@
    width: 10px;
    height: 4px;
    border-radius: 2px;
-   animation: moving 2s infinite, blinking 2s infinite;
+   animation: moving 2s infinite alternate, blinking 2s infinite;
 }

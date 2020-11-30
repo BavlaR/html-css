@@ -1,21 +1,29 @@
-.container {
+* {
+   box-sizing: border-box;
+}
+body {
    display: flex;
    height: 100vh;
 }
-.spinner {
-   margin: auto;
-}
-.spinner-text {
-   font-size: 16px;
-   font-family: monospace;
+.block {
+   width: 250px;
+   height: 100px;
+   position: absolute;
+   top: -100px;
+   left: calc(50vw - 125px);
+   border-radius: 10px;
+   background-color: coral;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   color: white;
    text-transform: uppercase;
-   animation: blinking 2s infinite linear;
+   text-align: center;
+   animation: appear 2s ease forwards;
 }
-.rect {
-   position: relative;
-   background-color: black;
-   width: 10px;
-   height: 4px;
-   border-radius: 2px;
-   animation: moving 2s infinite alternate, blinking 2s infinite;
+@keyframes appear {
+   100% {
+      top: 50vh;
+      transform: translateY(-100px);
+   }
 }

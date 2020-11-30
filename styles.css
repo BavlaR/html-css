@@ -1,32 +1,35 @@
-.container {
-   margin: 32px;
-}
-.container div {
-   margin-bottom: 16px;
-   background-color: coral;
-   text-align: center;
-   opacity: 0.5;
+div {
    width: 100px;
    height: 100px;
-   line-height: 100px;
-   transition: width 2s, opacity 0.5s;
+   background-color: coral;
+   position: absolute;
+   animation: bigBox 4s;
+   animation-direction: alternate;
+   animation-iteration-count: 2;
 }
-.container div:hover {
-   width: 100%;
-   opacity: 1;
-}
-.linear {
-   transition-timing-function: linear;
-}
-.ease {
-   transition-timing-function: ease;
-}
-.ease-in {
-   transition-timing-function: ease-in;
-}
-.ease-out {
-   transition-timing-function: ease-out;
-}
-.ease-in-out {
-   transition-timing-function: ease-out;
+@keyframes bigBox {
+   0% {
+      left: 0;
+      top: 0;
+   }
+   25% {
+      left: 300px;
+      top: 0;
+      background-color: cornflowerblue;
+   }
+   50% {
+      left: 300px;
+      top: 300px;
+      background-color: aqua;
+   }
+   75% {
+      left: 0;
+      top: 300px;
+      background-color: yellowgreen;
+   }
+   100% {
+      left: 0;
+      top: 0;
+      background-color: coral;
+   }
 }

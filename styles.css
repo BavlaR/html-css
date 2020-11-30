@@ -1,35 +1,21 @@
-div {
-   width: 100px;
-   height: 100px;
-   background-color: coral;
-   position: absolute;
-   animation: bigBox 4s;
-   animation-direction: alternate;
-   animation-iteration-count: 2;
+.container {
+   display: flex;
+   height: 100vh;
 }
-@keyframes bigBox {
-   0% {
-      left: 0;
-      top: 0;
-   }
-   25% {
-      left: 300px;
-      top: 0;
-      background-color: cornflowerblue;
-   }
-   50% {
-      left: 300px;
-      top: 300px;
-      background-color: aqua;
-   }
-   75% {
-      left: 0;
-      top: 300px;
-      background-color: yellowgreen;
-   }
-   100% {
-      left: 0;
-      top: 0;
-      background-color: coral;
-   }
+.spinner {
+   margin: auto;
+   font-family: monospace;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+.spinner-text {
+   animation: blinking 2s infinite linear;
+}
+.rect {
+   position: relative;
+   background-color: black;
+   width: 10px;
+   height: 4px;
+   border-radius: 2px;
+   animation: moving 2s infinite, blinking 2s infinite;
 }

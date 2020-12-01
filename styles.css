@@ -1,18 +1,16 @@
 * {
    box-sizing: border-box;
 }
-
-p {
-   margin: 0 32px;
-   padding: 8px;
-   background-color: antiquewhite;
-   display: inline-block;
-   border-radius: 4px;
+h1 {
+   text-align: center;
 }
-
-.square {
-   width: 100px;
-   height: 100px;
-   background-color: tomato;
-   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
+.articles-list {
+   display: flex;
+   flex-wrap: wrap;
+}
+.article {
+   flex: 1 0 300px;
+   padding: 16px;
+   margin: 8px;
+   background-color: bisque;
 }

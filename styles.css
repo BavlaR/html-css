@@ -1,6 +1,5 @@
-div {
-   height: 300px;
-   width: 300px;
+body {
+   height: 100vh;
    display: flex;
 }
 button {

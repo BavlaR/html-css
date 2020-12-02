@@ -13,13 +13,10 @@ html {
    background-color: #eee;
 }
 .header__button {
-   display: flex;
-   align-items: center;
    font-size: 2em;
    padding: 0;
    outline: none;
    border: none;
-   background-color: #fff;
    cursor: pointer;
 }
 .navigation {

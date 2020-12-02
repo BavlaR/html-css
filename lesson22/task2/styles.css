@@ -1,0 +1,42 @@
+.div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+}
+.div-navigation {
+   background-color: #ff7f50;
+}
+.div-products {
+   background-color: #006400;
+}
+.div-news {
+   background-color: #0ff;
+}
+.div span {
+   padding: 8px;
+   border-radius: 4px;
+   font-family: Verdana;
+   text-transform: lowercase;
+   background-color: #faebd7;
+}
+@media screen and (min-width: 600px) {
+   section {
+      display: flex;
+   }
+   .div-navigation,
+   .div-products {
+      width: 50%;
+   }
+}
+@media screen and (min-width: 900px) {
+   main {
+      display: flex;
+   }
+   section {
+      width: 66.6666666%;
+   }
+   .div-news {
+      width: 33.3333333%;
+   }
+}

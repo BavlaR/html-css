@@ -11,11 +11,10 @@ body {
    flex-direction: column;
    height: 100vh;
 }
-.header h1 {
-   margin: 0;
-   text-align: center;
+.header {
    background: linear-gradient(60deg, red, orange);
    color: #fff;
+   text-align: center;
 }
 .main {
    flex-grow: 1;

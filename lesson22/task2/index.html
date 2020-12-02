@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Adaptive</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+         integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+         crossorigin="anonymous"
+      />
+      <style>
+         .all-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 50%;
+            height: 200px;
+         }
+         .elem1 {
+            background-color: #ff7f50;
+         }
+         .elem2 {
+            background-color: #006400;
+         }
+         .elem3 {
+            background-color: #0ff;
+         }
+         .all span {
+            padding: 8px;
+            font-family: Verdana;
+            text-transform: lowercase;
+            background-color: #faebd7;
+            border-radius: 4px;
+         }
+         @media screen and (min-width: 600px) {
+            section {
+               display: flex;
+            }
+         }
+         @media screen and (min-width: 900px) {
+            main {
+               display: flex;
+            }
+            section {
+               width: 66.66vw;
+            }
+            .elem3 {
+               min-width: 33.33vw;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <main>
+         <section>
+            <div class="all-div elem1"><span>Navigation</span></div>
+            <div class="all-div elem2"><span>Products List</span></div>
+         </section>
+         <div class="all-div elem3"><span>News</span></div>
+      </main>
+   </body>
+</html>

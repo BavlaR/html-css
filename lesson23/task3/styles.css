@@ -9,6 +9,10 @@ header {
   background-color: #006400;
 }
 
+ul li {
+  cursor: pointer;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,12 +21,9 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 0 0 3em;
+  padding: 0;
   text-transform: uppercase;
   list-style-type: none;
-}
-
-ul li {
-  cursor: pointer;
 }
 
 .menu__item {
